@@ -1,5 +1,8 @@
 package models;
 
+import models.constant.GateStatus;
+import models.constant.GateType;
+
 public class Gate extends BaseModel{
     private String operator;
     private GateType gateType;
